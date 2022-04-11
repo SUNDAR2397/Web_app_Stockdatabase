@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM python
 WORKDIR /myapp
 COPY . /myapp
 RUN pip3 install -U -r requirements.txt
